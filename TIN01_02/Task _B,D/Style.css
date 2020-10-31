@@ -1,0 +1,21 @@
+body {background-color: lightblue;}
+
+input[type=text] {
+    background-color: red;
+    color: white;
+}
+input[type=password] {
+    background-color: red;
+    color: white;
+}
+input[type=radio] {
+    background-color: red;
+    color: white;
+}
+label{
+    color: darkgreen;
+    style: "font-size:70px";
+    style : "font-family:verdana;";
+}
+
+

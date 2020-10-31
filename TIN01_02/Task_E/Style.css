@@ -1,0 +1,28 @@
+
+body{
+    background: pink;
+}
+h1{
+    color: firebrick;
+    margin-left: 50px;
+}
+p{
+    float: contour;
+}
+.box{
+    box-sizing: border-box;
+    width: 700px;
+    height: 400px;
+}
+.box1{
+
+    float: left;
+}
+.box2{
+    float: right;
+}
+
+.box3{
+    clear: both;
+}
+

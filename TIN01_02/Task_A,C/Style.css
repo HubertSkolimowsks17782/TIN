@@ -1,0 +1,26 @@
+body {
+    background-color: lightyellow;
+}
+
+h1{
+    color: navy;
+    margin-left: 90px;
+    style: "font-size:70px";
+    style : "font-family:verdana;";
+
+}
+p {
+    style: "font-size:40px";
+    style : "font-family:'Courier New'";
+    color: #ff0000;
+    margin-left: 100px;
+}
+
+table  tr, td{
+    border: 4px red;
+    border-style: dotted solid double;
+}
+
+ul li {
+    list-style-type: square;
+}
