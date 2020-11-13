@@ -1,0 +1,71 @@
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: lime;
+}
+body{
+    width: 100%;
+    background-color: bisque;
+}
+header {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     margin-top: 5%;
+}
+header>img {
+
+    box-shadow: 15px 15px #ee270f;
+    transform: rotate(5deg);
+    border-radius: 12%;
+}
+/*Grid */
+body > .box {
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    margin: 10%;
+    display: grid;
+}
+body>.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+.box>.gallery{
+    width: 250px;
+    padding: 0 10px;
+}
+
+blockquote{
+    width: 100px;
+    background-color: yellow;
+    color: darkblue;
+    font-size: 13px;
+    float: left;
+    text-align: center;
+}
+.box>.TextPart {
+    width: 250px;
+    padding:  10px;
+}
+.box>.TextPart>.tvp{
+   float: left;
+   alignment: left;
+
+}
+@media all and (max-width: 800px) {
+    .box > .gallery {
+        order: 4
+    }
+}
+footer {
+
+    text-align: center;
+    background: #26a210;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+}
